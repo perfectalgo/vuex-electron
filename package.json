@@ -1,6 +1,6 @@
 {
-  "name": "vuex-electron",
-  "version": "1.0.3",
+  "name": "@perfectalgo/vuex-electron",
+  "version": "1.0.4",
   "description": "Vuex Electron",
   "keywords": [
     "vue",
@@ -56,6 +56,6 @@
   },
   "dependencies": {
     "deepmerge": "^2.1.1",
-    "electron-store": "^2.0.0"
+    "electron-store": "^8.0.1"
   }
 }
