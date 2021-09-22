@@ -1,5 +1,5 @@
 import merge from "deepmerge"
-import Store from "electron-store"
+import Store from "./electron-store"
 
 const STORAGE_NAME = "vuex"
 const STORAGE_KEY = "state"
@@ -21,8 +21,7 @@ class PersistedState {
 
   createStorage() {
     return new Store({
-      name: this.options.storageName || STORAGE_NAME,
-      cwd: process.cwd()
+      name: this.options.storageName || STORAGE_NAME
     })
   }
 
